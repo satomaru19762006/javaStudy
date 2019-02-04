@@ -18,20 +18,13 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public SampleServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//運勢をランダムで決定
-		String[] luckArray = {"超すっきり","すっきり","さいあく"};
+		String[] luckArray = {"でも超すっきり","でもすっきり","でもさいあく"};
 
 		//0以上3未満の整数を乱数で生成
 		int index = (int) (Math.random() * 3);
