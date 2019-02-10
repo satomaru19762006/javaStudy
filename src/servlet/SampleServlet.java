@@ -36,7 +36,7 @@ public class SampleServlet extends HttpServlet {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 		String today = sdf.format(date);
 
-		//HTMLを出力
+		//HTMLを出力--------------------------
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
