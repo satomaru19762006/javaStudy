@@ -24,9 +24,11 @@ public class SampleServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//運勢をランダムで決定
-		String[] luckArray = {"でも超すっきり","でもすっきり","でもさいあく"};
+		String[] luckArray = {"超すっきり","すっきり","さいあく"};
 
 		//0以上3未満の整数を乱数で生成
+		//String str = "";
+		//int index = Integer.parseInt(str);
 		int index = (int) (Math.random() * 3);
 
 		String luck = luckArray[index];
