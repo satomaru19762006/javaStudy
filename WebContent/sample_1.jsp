@@ -17,6 +17,7 @@ String today = sdf.format(date);
 
 %>
 
+<%-- jspコメント --%>
 <!DOCTYPE html>
 <html>
 <head>
