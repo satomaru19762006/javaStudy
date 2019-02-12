@@ -24,6 +24,7 @@ public class SampleServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//運勢をランダムで決定
+		//テスト用コメント
 		String[] luckArray = {"超すっきり","すっきり","さいあく"};
 
 		//0以上3未満の整数を乱数で生成
