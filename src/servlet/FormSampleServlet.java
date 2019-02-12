@@ -23,6 +23,7 @@ public class FormSampleServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		//リクエストパラメータを取得
+		//コメントをテスト用に足します
 		request.setCharacterEncoding("UTF-8");
 		String name = request.getParameter("name");
 		String gender = request.getParameter("gender");
